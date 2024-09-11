@@ -6,7 +6,7 @@ export default function Header(){
             <nav>
             <div class="nav-center">
                 <div class="nav-header">
-                    <h1>WANTED PROFILES</h1>
+                    <h1 className="title">WANTED PROFILES</h1>
                     <button class="nav-toggle" />
                         <i class="fas fa-bars"></i>
                     
@@ -14,21 +14,19 @@ export default function Header(){
 
                 <ul class="links">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
 
             </div>
         </nav>
         </header>
+    
     )
 }

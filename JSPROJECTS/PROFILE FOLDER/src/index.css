@@ -17,7 +17,8 @@
 .person {
   flex: 1 1 calc(33.333% - 10px); /* Adjust the width to fit 3 items per row */
   box-sizing: border-box;
-  margin: 5px; }
+  margin: 5px;
+  background-color: #825B32;}
 .person p{
   margin: 0;
 }
@@ -277,8 +278,8 @@ nav {
 body {
   align-content:center;
   text-align: center;
-  background-color: #825B32;
   margin:0;
+  color: #1230AE;
 }
 .name{
   color: #6CBEC7;
@@ -291,4 +292,7 @@ p{
 }
 .onepiece{
   max-width: 500px;
+}
+.title{
+  color: #1230AE
 }
