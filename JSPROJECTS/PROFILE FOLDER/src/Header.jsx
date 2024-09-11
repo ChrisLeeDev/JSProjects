@@ -1,3 +1,4 @@
+
 export default function Header(){
     return(
 
@@ -5,7 +6,7 @@ export default function Header(){
             <nav>
             <div class="nav-center">
                 <div class="nav-header">
-                    <h1>Wanted Profiles</h1>
+                    <h1>WANTED PROFILES</h1>
                     <button class="nav-toggle" />
                         <i class="fas fa-bars"></i>
                     
